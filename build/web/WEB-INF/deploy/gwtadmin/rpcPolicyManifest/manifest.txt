@@ -1,0 +1,4 @@
+# Module gwtadmin
+# RPC service class, partial path of RPC policy file
+com.indiana.client.service.ServiceGestionMantenimiento, 5865385D440085D2A71E8F745B043D91.gwt.rpc
+com.indiana.client.service.ServiceGestionUsuario, 29A8CD2AFF02F2BC090AC5A2D1F41439.gwt.rpc

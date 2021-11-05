@@ -1,0 +1,2 @@
+serviceClass: com.indiana.client.service.ServiceGestionMantenimiento
+path: 5865385D440085D2A71E8F745B043D91.gwt.rpc

@@ -1,0 +1,110 @@
+@FinalFields, false
+com.google.gwt.i18n.shared.impl.DateRecord, true, true, true, true, com.google.gwt.i18n.shared.impl.DateRecord/3173882066, 3173882066
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
+com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
+com.indiana.client.service.ServiceGestionMantenimiento, false, false, false, false, _, 2164780086
+com.indiana.server.model.bean.CasaTarjeta, true, true, true, true, com.indiana.server.model.bean.CasaTarjeta/1763402611, 1763402611
+@ClientFields,com.indiana.server.model.bean.CasaTarjeta,idCasaTarjeta,codeCasaTarjeta,descripcion,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.CasaTarjeta;, true, true, false, false, [Lcom.indiana.server.model.bean.CasaTarjeta;/2863315505, 2863315505
+com.indiana.server.model.bean.CategoriaDestino, true, true, true, true, com.indiana.server.model.bean.CategoriaDestino/3959267596, 3959267596
+@ClientFields,com.indiana.server.model.bean.CategoriaDestino,idCategoriaDestino,codeCategoriaDestino,nombre,estado,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.CategoriaDestino;, true, true, false, false, [Lcom.indiana.server.model.bean.CategoriaDestino;/284802528, 284802528
+com.indiana.server.model.bean.CategoriaNegocio, true, true, true, true, com.indiana.server.model.bean.CategoriaNegocio/2029168792, 2029168792
+@ClientFields,com.indiana.server.model.bean.CategoriaNegocio,idCategoriaNegocio,codeCategoriaNegocio,nombre,estado,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.CategoriaNegocio;, true, true, false, false, [Lcom.indiana.server.model.bean.CategoriaNegocio;/2958098557, 2958098557
+com.indiana.server.model.bean.CuentaAdmin, true, true, true, true, com.indiana.server.model.bean.CuentaAdmin/2997540943, 2997540943
+@ClientFields,com.indiana.server.model.bean.CuentaAdmin,idCuentaAdmin,correo,clave,fechaCreacion,estadoCuenta,codeEstadoCuenta,version,operacion,idUsuarioAdmin,beanUsuarioAdmin,isPersistente
+com.indiana.server.model.bean.EntidadFinanciera, true, true, true, true, com.indiana.server.model.bean.EntidadFinanciera/1008939816, 1008939816
+@ClientFields,com.indiana.server.model.bean.EntidadFinanciera,idEntidadFinanciera,codeEntidadFinanciera,nombreEntidadFinanciera,numeroCuenta,version,operacion,codePais,nombrePais,beanPais,isPersistente
+[Lcom.indiana.server.model.bean.EntidadFinanciera;, true, true, false, false, [Lcom.indiana.server.model.bean.EntidadFinanciera;/1183343454, 1183343454
+com.indiana.server.model.bean.EstadoAmistad, true, true, true, true, com.indiana.server.model.bean.EstadoAmistad/2954940361, 2954940361
+@ClientFields,com.indiana.server.model.bean.EstadoAmistad,idEstadoAmistad,codeEstadoAmistad,descripcion,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.EstadoAmistad;, true, true, false, false, [Lcom.indiana.server.model.bean.EstadoAmistad;/1235372068, 1235372068
+com.indiana.server.model.bean.EstadoCuenta, true, true, true, true, com.indiana.server.model.bean.EstadoCuenta/1806146616, 1806146616
+@ClientFields,com.indiana.server.model.bean.EstadoCuenta,idEstadoCuenta,codeEstadoCuenta,descripcion,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.EstadoCuenta;, true, true, false, false, [Lcom.indiana.server.model.bean.EstadoCuenta;/2047013993, 2047013993
+com.indiana.server.model.bean.EstadoMiembro, true, true, true, true, com.indiana.server.model.bean.EstadoMiembro/3036532712, 3036532712
+@ClientFields,com.indiana.server.model.bean.EstadoMiembro,idEstadoMiembro,codeEstadoMiembro,descripcion,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.EstadoMiembro;, true, true, false, false, [Lcom.indiana.server.model.bean.EstadoMiembro;/672354, 672354
+com.indiana.server.model.bean.EstadoSolicAmistad, true, true, true, true, com.indiana.server.model.bean.EstadoSolicAmistad/2028126560, 2028126560
+@ClientFields,com.indiana.server.model.bean.EstadoSolicAmistad,idEstadoSolicAmistad,codeEstadoSolicAmistad,descripcion,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.EstadoSolicAmistad;, true, true, false, false, [Lcom.indiana.server.model.bean.EstadoSolicAmistad;/1876160103, 1876160103
+com.indiana.server.model.bean.FormaPago, true, true, true, true, com.indiana.server.model.bean.FormaPago/918721774, 918721774
+@ClientFields,com.indiana.server.model.bean.FormaPago,idFormaPago,codeFormaPago,tipo,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.FormaPago;, true, true, false, false, [Lcom.indiana.server.model.bean.FormaPago;/301564386, 301564386
+com.indiana.server.model.bean.Idioma, true, true, true, true, com.indiana.server.model.bean.Idioma/3875229407, 3875229407
+@ClientFields,com.indiana.server.model.bean.Idioma,idIdioma,codeIdioma,descripcion,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.Idioma;, true, true, false, false, [Lcom.indiana.server.model.bean.Idioma;/1182482746, 1182482746
+com.indiana.server.model.bean.Localidad, true, true, true, true, com.indiana.server.model.bean.Localidad/1354715604, 1354715604
+@ClientFields,com.indiana.server.model.bean.Localidad,idLocalidad,codeLocalidad,nombre,version,operacion,beanRegion,codeRegion,nombreRegion,beanPais,codePais,nombrePais,isPersistente,generador
+[Lcom.indiana.server.model.bean.Localidad;, true, true, false, false, [Lcom.indiana.server.model.bean.Localidad;/549524142, 549524142
+com.indiana.server.model.bean.Moneda, true, true, true, true, com.indiana.server.model.bean.Moneda/3537478224, 3537478224
+@ClientFields,com.indiana.server.model.bean.Moneda,idMoneda,codeMoneda,descripcion,representacion,estado,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.Moneda;, true, true, false, false, [Lcom.indiana.server.model.bean.Moneda;/450244107, 450244107
+com.indiana.server.model.bean.Pais, true, true, true, true, com.indiana.server.model.bean.Pais/360691524, 360691524
+@ClientFields,com.indiana.server.model.bean.Pais,idPais,codePais,nombre,urlicono,generador,version,operacion,isPersistente,indexList
+com.indiana.server.model.bean.PaisMoneda, true, true, true, true, com.indiana.server.model.bean.PaisMoneda/2262856595, 2262856595
+@ClientFields,com.indiana.server.model.bean.PaisMoneda,idPaisMoneda,codePaisMoneda,version,operacion,codePais,codeMoneda,nombrePais,nombreMoneda,beanPais,beanMoneda,isPersistente
+[Lcom.indiana.server.model.bean.PaisMoneda;, true, true, false, false, [Lcom.indiana.server.model.bean.PaisMoneda;/4118954061, 4118954061
+[Lcom.indiana.server.model.bean.Pais;, true, true, false, false, [Lcom.indiana.server.model.bean.Pais;/3005035916, 3005035916
+com.indiana.server.model.bean.ParametrosSistema, true, true, true, true, com.indiana.server.model.bean.ParametrosSistema/343706165, 343706165
+@ClientFields,com.indiana.server.model.bean.ParametrosSistema,idParametrosSistema,codeParametrosSistema,descripcion,valor,tipoDato,unidad,estado,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.ParametrosSistema;, true, true, false, false, [Lcom.indiana.server.model.bean.ParametrosSistema;/2686224882, 2686224882
+com.indiana.server.model.bean.Privacidad, true, true, true, true, com.indiana.server.model.bean.Privacidad/151307788, 151307788
+@ClientFields,com.indiana.server.model.bean.Privacidad,idPrivacidad,codePrivacidad,descripcion,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.Privacidad;, true, true, false, false, [Lcom.indiana.server.model.bean.Privacidad;/1864364600, 1864364600
+com.indiana.server.model.bean.RedSocial, true, true, true, true, com.indiana.server.model.bean.RedSocial/2447592688, 2447592688
+@ClientFields,com.indiana.server.model.bean.RedSocial,idRedSocial,codeRedSocial,nombreApp,apiKey,sharedSecret,oauthToken,oauthTokenSecret,apiVersion,version,redSocial,operacion,isPersistente
+[Lcom.indiana.server.model.bean.RedSocial;, true, true, false, false, [Lcom.indiana.server.model.bean.RedSocial;/694014181, 694014181
+com.indiana.server.model.bean.Region, true, true, true, true, com.indiana.server.model.bean.Region/1144755415, 1144755415
+@ClientFields,com.indiana.server.model.bean.Region,idRegion,codeRegion,nombre,generador,version,operacion,codePais,nombrePais,beanPais,isPersistente
+[Lcom.indiana.server.model.bean.Region;, true, true, false, false, [Lcom.indiana.server.model.bean.Region;/170491509, 170491509
+com.indiana.server.model.bean.Tarifario, true, true, true, true, com.indiana.server.model.bean.Tarifario/3429940049, 3429940049
+@ClientFields,com.indiana.server.model.bean.Tarifario,idTarifario,codeTarifario,rangoInicial,rangoFinal,precioUnidad,nombreTipoSuscripcion,nombrePais,estado,fechaInicial,fechaFinal,version,operacion,codeTipoSuscripcion,beanTipoSuscripcion,codePais,beanPais,isPersistente
+[Lcom.indiana.server.model.bean.Tarifario;, true, true, false, false, [Lcom.indiana.server.model.bean.Tarifario;/2365564625, 2365564625
+com.indiana.server.model.bean.TipoCambio, true, true, true, true, com.indiana.server.model.bean.TipoCambio/2328484095, 2328484095
+@ClientFields,com.indiana.server.model.bean.TipoCambio,idTipoCambio,codeTipoCambio,beanPaisMonedaOrigen,beanPaisMonedaDestino,precioVenta,precioCompra,fecha,paisOrigen,monedaOrigen,paisDestino,monedaDestino,version,operacion,codePaisMonedaOrigen,codePaisMonedaDestino,isPersistente
+[Lcom.indiana.server.model.bean.TipoCambio;, true, true, false, false, [Lcom.indiana.server.model.bean.TipoCambio;/120293518, 120293518
+com.indiana.server.model.bean.TipoEmpatia, true, true, true, true, com.indiana.server.model.bean.TipoEmpatia/1830226446, 1830226446
+@ClientFields,com.indiana.server.model.bean.TipoEmpatia,idTipoEmpatia,codeTipoEmpatia,descripcion,estado,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.TipoEmpatia;, true, true, false, false, [Lcom.indiana.server.model.bean.TipoEmpatia;/2973850309, 2973850309
+com.indiana.server.model.bean.TipoInterPublicidad, true, true, true, true, com.indiana.server.model.bean.TipoInterPublicidad/2877458832, 2877458832
+@ClientFields,com.indiana.server.model.bean.TipoInterPublicidad,idTipoInterPublicidad,codeTipoInterPublicidad,descripcion,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.TipoInterPublicidad;, true, true, false, false, [Lcom.indiana.server.model.bean.TipoInterPublicidad;/62174565, 62174565
+com.indiana.server.model.bean.TipoMovimiento, true, true, true, true, com.indiana.server.model.bean.TipoMovimiento/910785982, 910785982
+@ClientFields,com.indiana.server.model.bean.TipoMovimiento,idTipoMovimiento,codeTipoMovimiento,descripcion,estado,tipo,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.TipoMovimiento;, true, true, false, false, [Lcom.indiana.server.model.bean.TipoMovimiento;/2443339880, 2443339880
+com.indiana.server.model.bean.TipoNotificacion, true, true, true, true, com.indiana.server.model.bean.TipoNotificacion/1868499100, 1868499100
+@ClientFields,com.indiana.server.model.bean.TipoNotificacion,idTipoNotificacion,codeTipoNotificacion,descripcion,mensaje,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.TipoNotificacion;, true, true, false, false, [Lcom.indiana.server.model.bean.TipoNotificacion;/1532882030, 1532882030
+com.indiana.server.model.bean.TipoSuscripcion, true, true, true, true, com.indiana.server.model.bean.TipoSuscripcion/1325578231, 1325578231
+@ClientFields,com.indiana.server.model.bean.TipoSuscripcion,idTipoSuscripcion,codeTipoSuscripcion,descripcion,estado,version,operacion,isPersistente
+[Lcom.indiana.server.model.bean.TipoSuscripcion;, true, true, false, false, [Lcom.indiana.server.model.bean.TipoSuscripcion;/4004619775, 4004619775
+com.indiana.server.model.bean.UsuarioAdmin, true, true, true, true, com.indiana.server.model.bean.UsuarioAdmin/3643573081, 3643573081
+@ClientFields,com.indiana.server.model.bean.UsuarioAdmin,idUsuarioAdmin,codeUsuarioAdmin,nombre,apellido,dni,telefono,correo,version,operacion,beanCuentaAdmin,idSession,isPersistente
+[Lcom.indiana.server.model.bean.UsuarioAdmin;, true, true, false, false, [Lcom.indiana.server.model.bean.UsuarioAdmin;/2191731254, 2191731254
+com.indiana.shared.ListFilterBean, false, false, true, true, com.indiana.shared.ListFilterBean/1611928388, 1611928388
+com.indiana.shared.UnknownException, true, true, false, false, com.indiana.shared.UnknownException/608910084, 608910084
+java.lang.Boolean, true, true, true, true, java.lang.Boolean/476441737, 476441737
+java.lang.Double, true, true, true, true, java.lang.Double/858496421, 858496421
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.Integer, true, true, true, true, java.lang.Integer/3438268394, 3438268394
+java.lang.Long, true, true, true, true, java.lang.Long/4227064769, 4227064769
+java.lang.Number, true, false, true, false, java.lang.Number/300033342, 300033342
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131
+java.sql.Date, true, true, true, true, java.sql.Date/730999118, 730999118
+java.sql.Time, true, true, true, true, java.sql.Time/1816797103, 1816797103
+java.sql.Timestamp, true, true, true, true, java.sql.Timestamp/3040052672, 3040052672
+java.util.ArrayList, true, true, false, false, java.util.ArrayList/4159755760, 4159755760
+java.util.Arrays$ArrayList, true, true, false, false, java.util.Arrays$ArrayList/2507071751, 2507071751
+java.util.Collections$EmptyList, true, true, false, false, java.util.Collections$EmptyList/4157118744, 4157118744
+java.util.Collections$SingletonList, true, true, false, false, java.util.Collections$SingletonList/1586180994, 1586180994
+java.util.Date, true, true, true, true, java.util.Date/3385151746, 3385151746
+java.util.HashMap, false, false, true, true, java.util.HashMap/1797211028, 1797211028
+java.util.LinkedHashMap, false, false, true, true, java.util.LinkedHashMap/3008245022, 3008245022
+java.util.LinkedList, true, true, false, false, java.util.LinkedList/3953877921, 3953877921
+java.util.Stack, true, true, false, false, java.util.Stack/1346942793, 1346942793
+java.util.Vector, true, true, false, false, java.util.Vector/3057315478, 3057315478

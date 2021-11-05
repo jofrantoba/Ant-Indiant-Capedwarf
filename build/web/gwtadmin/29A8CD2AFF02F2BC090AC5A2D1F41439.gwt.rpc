@@ -1,0 +1,116 @@
+@FinalFields, false
+com.google.gwt.i18n.shared.impl.DateRecord, true, true, false, false, com.google.gwt.i18n.shared.impl.DateRecord/3173882066, 3173882066
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
+com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
+com.indiana.client.service.ServiceGestionUsuario, false, false, false, false, _, 237015339
+com.indiana.server.model.bean.Amistad, true, true, false, false, com.indiana.server.model.bean.Amistad/3216010193, 3216010193
+@ClientFields,com.indiana.server.model.bean.Amistad,idAmistad,codeAmistad,codUnicoAmistad,fechaInicio,fechaFin,version,operacion,beanEstadoAmistad,codeEstadoAmistad,beanTuristaPrincipal,codeTuristaPrincipal,nombreTuristaPrincipal,apellidoTuristaPrincipal,fotoPerfilTuristaPrincipal,beanPaisNacionalidadPrincipal,codePaisNacionalidadPrincipal,nombrePaisPrincipal,beanTuristaAmigo,codeTuristaAmigo,nombreTuristaAmigo,apellidoTuristaAmigo,fotoPerfilTuristaAmigo,beanPaisNacionalidadAmigo,codePaisNacionalidadAmigo,nombrePaisAmigo,codeRegionAmigo,nombreRegionAmigo,beanSolicitudAmistad,codeSolicitudAmistad,isPersistente,enComun,calculoDistancia
+com.indiana.server.model.bean.Campania, true, true, false, false, com.indiana.server.model.bean.Campania/2060583426, 2060583426
+@ClientFields,com.indiana.server.model.bean.Campania,idCampania,codeCampania,nombre,descripcion,fechaCreacion,fechaCierre,estado,beanUsuarioNegocio,codeUsuarioNegocio,version,operacion,isPersistente
+com.indiana.server.model.bean.CategoriaDestino, true, true, false, false, com.indiana.server.model.bean.CategoriaDestino/3959267596, 3959267596
+@ClientFields,com.indiana.server.model.bean.CategoriaDestino,idCategoriaDestino,codeCategoriaDestino,nombre,estado,version,operacion,isPersistente
+com.indiana.server.model.bean.CategoriaNegocio, true, true, false, false, com.indiana.server.model.bean.CategoriaNegocio/2029168792, 2029168792
+@ClientFields,com.indiana.server.model.bean.CategoriaNegocio,idCategoriaNegocio,codeCategoriaNegocio,nombre,estado,version,operacion,isPersistente
+com.indiana.server.model.bean.Colonia, true, true, false, false, com.indiana.server.model.bean.Colonia/2697937751, 2697937751
+@ClientFields,com.indiana.server.model.bean.Colonia,idColonia,codeColonia,nombreColonia,descripcion,latitud,longitud,radio,fechaCreacion,cantidadMiembros,beanPaisColonia,codePaisColonia,nombrePaisColonia,beanRegionColonia,codeRegionColonia,nombreRegionColonia,beanLocalidadColonia,codeLocalidadColonia,nombreLocalidadColonia,version,operacion,beanTuristaCreador,codeTuristaCreador,nombreCreadorColonia,apellidoCreadorColonia,fotoPerfilCreadorColonia,beanInteresUno,nombreInteresUno,modaInteresUno,beanInteresDos,nombreInteresDos,modaInteresDos,beanInteresTres,nombreInteresTres,modaInteresTres,isPersistente,listColoniaIntereses,listMiembro,listProxColoniaDestino,listDetalleInteres,distanciaAlPuntoCreacion,calculoDistancia,distanciaTuristaColonia,codeTuristaSeUne,latitudTuristaSeUne,longitudTuristaSeUne,fechaSuscripcion,codeMiembro,estadoVisibilidad,enComun,indexList
+com.indiana.server.model.bean.ColoniaInteres, true, true, false, false, com.indiana.server.model.bean.ColoniaInteres/625928610, 625928610
+@ClientFields,com.indiana.server.model.bean.ColoniaInteres,idColoniaInteres,codeColoniaInteres,version,operacion,beanColonia,codeColonia,beanInteres,codeInteres,nombreInteres,valorModaColoniaInteres,isPersistente,annio,mes,dia,edad,nombreColonia,nacionalidad
+[Lcom.indiana.server.model.bean.ColoniaInteres;, true, true, false, false, [Lcom.indiana.server.model.bean.ColoniaInteres;/3257511860, 3257511860
+com.indiana.server.model.bean.Conquista, true, true, false, false, com.indiana.server.model.bean.Conquista/3472286586, 3472286586
+@ClientFields,com.indiana.server.model.bean.Conquista,idConquista,codeConquista,descripcion,fotoConquista,longitud,latitud,fechaConquista,tipoConquista,version,operacion,beanTuristaConquista,codeTuristaConquista,nombreTuristaConquista,apellidoTuristaConquista,fotoPerfilTuristaConquista,beanDestino,codeDestino,beanNegocio,codeNegocio,nombreDestinoNegocio,beanOferta,codeOferta,beanPais,codePais,beanRegion,codeRegion,beanLocalidad,codeLocalidad,isPersistente,annio,mes,dia,edad,nacionalidad
+[Lcom.indiana.server.model.bean.Conquista;, true, true, false, false, [Lcom.indiana.server.model.bean.Conquista;/3321216090, 3321216090
+com.indiana.server.model.bean.CuentaNegocio, true, true, false, false, com.indiana.server.model.bean.CuentaNegocio/400334607, 400334607
+@ClientFields,com.indiana.server.model.bean.CuentaNegocio,idCuentaNegocio,codeCuentaNegocio,correoNegocio,correoCuenta,clave,fechaCreacion,version,operacion,beanEstadoCuenta,codeEstadoCuenta,beanUsuarioNegocio,codeUsuarioNegocio,beanSolicitudCuentaNegocio,codeSolicitudCuentaNegocio,isPersistente
+com.indiana.server.model.bean.CuentaTurista, true, true, false, false, com.indiana.server.model.bean.CuentaTurista/1203026444, 1203026444
+@ClientFields,com.indiana.server.model.bean.CuentaTurista,idCuentaTurista,correoTurista,clave,fechaCreacion,version,tipo,operacion,beanEstadoCuenta,codeEstadoCuenta,beanUsuarioTurista,codeUsuarioTurista,isPersistente,tokenFirebase
+com.indiana.server.model.bean.Destino, true, true, false, false, com.indiana.server.model.bean.Destino/2574197692, 2574197692
+@ClientFields,com.indiana.server.model.bean.Destino,idDestino,codeDestino,nombre,urlFotoPrincipal,latitud,longitud,radio,descripcion,beanPais,codePais,nombrePais,beanRegion,codeRegion,nombreRegion,beanLocalidad,codeLocalidad,nombreLocalidad,fechaCreacion,version,operacion,beanTuristaCreador,codeTuristaCreador,nombreCreador,apellidoCreador,fotoPerfilCreador,beanCategoriaDestino,codeCategoriaDestino,nombreCategoriaDestino,isPersistente,calculoDistancia,listaCalificaciones,promedioCalificacion,totalConquistas,distanciaTuristaDestino,tipoNegocioDestino,totalDivulgadoNegocio,totalCompartidoNegocio,visitasPerfilNegocio
+com.indiana.server.model.bean.DestinoCalificaDestino, true, true, false, false, com.indiana.server.model.bean.DestinoCalificaDestino/1477238197, 1477238197
+@ClientFields,com.indiana.server.model.bean.DestinoCalificaDestino,idDestinoCalificaDestino,codeDestinoCalificaDestino,codeDestino,codeCalificaDestino,codeTurista,nombresTurista,apellidosTurista,fotoPerfilTuristaComenta,fechaTuristaComenta,calificacion,opinion,version
+[Lcom.indiana.server.model.bean.DestinoCalificaDestino;, true, true, false, false, [Lcom.indiana.server.model.bean.DestinoCalificaDestino;/244136206, 244136206
+com.indiana.server.model.bean.DetalleInteres, true, true, false, false, com.indiana.server.model.bean.DetalleInteres/2614325841, 2614325841
+@ClientFields,com.indiana.server.model.bean.DetalleInteres,idDetalleInteres,codeDetalleInteres,nombreInteres,valor,nombreColonia,fechaCreacion,version,operacion,codeTuristaInteres,codeMiembroInteres,codeColoniaInteres,beanInteres,codeInteres,beanTipoMovimiento,codeTipoMovimiento,beanTurista,codeTurista,codeMiembro,beanColonia,codeColonia,isPersistente
+[Lcom.indiana.server.model.bean.DetalleInteres;, true, true, false, false, [Lcom.indiana.server.model.bean.DetalleInteres;/936397815, 936397815
+com.indiana.server.model.bean.DivulgacionNoticia, true, true, false, false, com.indiana.server.model.bean.DivulgacionNoticia/2816874882, 2816874882
+@ClientFields,com.indiana.server.model.bean.DivulgacionNoticia,idDivulgacionNoticia,codeDivulgacionNoticia,version,operacion,beanTuristaDivulga,codeTuristaDivulgacion,nombreTuristaDivulgacion,apellidoTuristaDivulgacion,fotoPerfilTuristaDivulga,beanNoticia,codeNoticia,isPersistente,fechaDivulgacion
+com.indiana.server.model.bean.EstadoAmistad, true, true, false, false, com.indiana.server.model.bean.EstadoAmistad/2954940361, 2954940361
+@ClientFields,com.indiana.server.model.bean.EstadoAmistad,idEstadoAmistad,codeEstadoAmistad,descripcion,version,operacion,isPersistente
+com.indiana.server.model.bean.EstadoCuenta, true, true, false, false, com.indiana.server.model.bean.EstadoCuenta/1806146616, 1806146616
+@ClientFields,com.indiana.server.model.bean.EstadoCuenta,idEstadoCuenta,codeEstadoCuenta,descripcion,version,operacion,isPersistente
+com.indiana.server.model.bean.EstadoMiembro, true, true, false, false, com.indiana.server.model.bean.EstadoMiembro/3036532712, 3036532712
+@ClientFields,com.indiana.server.model.bean.EstadoMiembro,idEstadoMiembro,codeEstadoMiembro,descripcion,version,operacion,isPersistente
+com.indiana.server.model.bean.EstadoSolicAmistad, true, true, false, false, com.indiana.server.model.bean.EstadoSolicAmistad/2028126560, 2028126560
+@ClientFields,com.indiana.server.model.bean.EstadoSolicAmistad,idEstadoSolicAmistad,codeEstadoSolicAmistad,descripcion,version,operacion,isPersistente
+com.indiana.server.model.bean.Grupo, true, true, false, false, com.indiana.server.model.bean.Grupo/4051090023, 4051090023
+@ClientFields,com.indiana.server.model.bean.Grupo,idGrupo,codeGrupo,nombre,descripcion,fechaCreacion,fechaCierre,estado,beanCampania,codeCampania,version,operacion,isPersistente
+com.indiana.server.model.bean.Interes, true, true, false, false, com.indiana.server.model.bean.Interes/1111954616, 1111954616
+@ClientFields,com.indiana.server.model.bean.Interes,idInteres,codeInteres,nombre,version,operacion,isPersistente
+com.indiana.server.model.bean.Localidad, true, true, false, false, com.indiana.server.model.bean.Localidad/1354715604, 1354715604
+@ClientFields,com.indiana.server.model.bean.Localidad,idLocalidad,codeLocalidad,nombre,version,operacion,beanRegion,codeRegion,nombreRegion,beanPais,codePais,nombrePais,isPersistente,generador
+com.indiana.server.model.bean.Miembro, true, true, false, false, com.indiana.server.model.bean.Miembro/571038498, 571038498
+@ClientFields,com.indiana.server.model.bean.Miembro,idMiembro,codeMiembro,fechaSuscripcion,estadoVisibilidad,version,operacion,beanTurista,codeTurista,nombreUsuarioTurista,apellidoUsuarioTurista,fotoPerfilUsuarioTurista,nombrePais,nombreRegion,beanColonia,codeColonia,nombreColonia,beanEstadoMiembro,codeEstadoMiembro,isPersistente,listMiembroIntereses,latitud,longitud,distanciaAlPuntoCreacion,estadoChatColonia,tokenFirebase
+com.indiana.server.model.bean.MiembroInteres, true, true, false, false, com.indiana.server.model.bean.MiembroInteres/161268351, 161268351
+@ClientFields,com.indiana.server.model.bean.MiembroInteres,idMiembroInteres,codeMiembroInteres,nombreInteres,valorModaMiembroInteres,estadoMiembroInteres,version,operacion,beanMiembro,codeMiembro,beanTurista,codeTurista,beanInteres,codeInteres,isPersistente,codeColonia,annio,mes,dia,edad,nombreColonia,nacionalidad
+[Lcom.indiana.server.model.bean.MiembroInteres;, true, true, false, false, [Lcom.indiana.server.model.bean.MiembroInteres;/4142780135, 4142780135
+[Lcom.indiana.server.model.bean.Miembro;, true, true, false, false, [Lcom.indiana.server.model.bean.Miembro;/1077205924, 1077205924
+com.indiana.server.model.bean.MuroNoticia, true, true, false, false, com.indiana.server.model.bean.MuroNoticia/789591936, 789591936
+@ClientFields,com.indiana.server.model.bean.MuroNoticia,idMuroNoticia,codeMuroNoticia,beanTuristaMuro,codeTuristaMuro,correoTuristaMuro,beanNoticia,codeNoticia,beanTuristaGeneraNoticia,codeTuristaGeneraNoticia,correoTuristaGeneraNoticia,beanNegocioGeneraNoticia,codeNegocioGeneraNoticia,nombreTuristaNegocioGeneraNoticia,fotoPerfilTuristaNegocioGeneraNoticia,tipoNoticia,totalComentario,totalCompartido,hiperLink,totalDivulgado,fechaPublicacion,beanConquista,codeConquista,beanNovedad,codeNovedad,beanPublicidadNegocio,codePublicidadNegocio,beanColonia,codeColonia,beanDestinoConquistado,codeDestinoConquistado,beanNegocioConquistado,codeNegocioConquistado,nombreColoniaNegocioDestino,beanMiembro,codeMiembro,descripcion,fotoConquistaPublicidad,telefono,enlace,longitud,latitud,version,operacion,isPersistente,visto,href,haDivulgado
+[Lcom.indiana.server.model.bean.MuroNoticia;, true, true, false, false, [Lcom.indiana.server.model.bean.MuroNoticia;/1379736226, 1379736226
+com.indiana.server.model.bean.Noticia, true, true, false, false, com.indiana.server.model.bean.Noticia/1814470029, 1814470029
+@ClientFields,com.indiana.server.model.bean.Noticia,idNoticia,codeNoticia,beanTuristaGeneraNoticia,codeTuristaGeneraNoticia,correoTuristaGeneraNoticia,beanNegocioGeneraNoticia,codeNegocioGeneraNoticia,nombreTuristaNegocioGeneraNoticia,fotoPerfilTuristaNegocioGeneraNoticia,tipoNoticia,totalComentario,totalCompartido,totalDivulgado,fechaPublicacion,beanConquista,codeConquista,beanNovedad,codeNovedad,beanPublicidadNegocio,codePublicidadNegocio,beanColonia,codeColonia,beanDestinoConquistado,codeDestinoConquistado,beanNegocioConquistado,codeNegocioConquistado,nombreColoniaNegocioDestino,beanMiembro,codeMiembro,descripcion,fotoConquistaPublicidad,telefono,enlace,longitud,latitud,version,operacion,estadoTarea,beanNoticiaOriginal,codeNoticiaOriginal,isPersistente,listMuroNoticia,listDivulgacionNoticia,href,hiperLink
+com.indiana.server.model.bean.NoticiaCompartida, true, true, false, false, com.indiana.server.model.bean.NoticiaCompartida/1907573250, 1907573250
+@ClientFields,com.indiana.server.model.bean.NoticiaCompartida,idNoticiaCompartida,codeNoticiaCompartida,version,operacion,beanNoticia,codeNoticia,beanTuristaComparte,codeTurista,nombreTuristaComparte,apellidoTuristaComparte,fotoPerfilTuristaComparte,codeMiembro,beanColonia,codeColonia,nombreColonia,isPersistente
+com.indiana.server.model.bean.Novedad, true, true, false, false, com.indiana.server.model.bean.Novedad/262897391, 262897391
+@ClientFields,com.indiana.server.model.bean.Novedad,idNovedad,codeNovedad,tipoNovedad,descripcion,fechaPublicacion,enlace,hiperLink,fotoPublicidad,version,operacion,beanMiembroGeneraNovedad,codeMiembroGeneraNovedad,beanTuristaGeneraNovedad,codeTuristaGeneraNovedad,nombreTuristaNegocioGeneraNovedad,apellidoTuristaGeneraNovedad,fotoPerfilTuristaNegocioGeneraNovedad,beanNegocioGeneraNovedad,codeNegocioGeneraNovedad,beanColonia,codeColonia,beanNoticiaCompartida,codeNoticiaCompatida,beanNoticiaOriginal,codeNoticiaOriginal,isPersistente,codeDestino,nombreDestinoNegocio
+com.indiana.server.model.bean.OfertaNegocio, true, true, false, false, com.indiana.server.model.bean.OfertaNegocio/330302815, 330302815
+@ClientFields,com.indiana.server.model.bean.OfertaNegocio,idOfertaNegocio,codeOfertaNegocio,beanNegocio,codeNegocio,nombreNegocio,fotoPerfilNegocio,descripcion,fotoOferta,cantidadOfertada,cantidadOfertaReclamadas,fechaPlaneacion,fechaLanzamiento,fechaVencimiento,estadoOferta,fechaBaja,beanTipoAnuncio,codeTipoAnuncio,version,operacion,isPersistente
+com.indiana.server.model.bean.Pais, true, true, false, false, com.indiana.server.model.bean.Pais/360691524, 360691524
+@ClientFields,com.indiana.server.model.bean.Pais,idPais,codePais,nombre,urlicono,generador,version,operacion,isPersistente,indexList
+com.indiana.server.model.bean.ProxColoniaDestino, true, true, false, false, com.indiana.server.model.bean.ProxColoniaDestino/2246942003, 2246942003
+@ClientFields,com.indiana.server.model.bean.ProxColoniaDestino,idProxColoniaDestino,codeProxColoniaDestino,beanColonia,codeColonia,latitudColonia,longitudColonia,radioColonia,codeDestinoNegocio,nombreDestinoNegocio,fotoDestinoNegocio,latitudDestinoNegocio,longitudDestinoNegocio,radioDestinoNegocio,distanciaCalculada,orden,version,tipo,operacion,isPersistente
+com.indiana.server.model.bean.PublicidadNegocio, true, true, false, false, com.indiana.server.model.bean.PublicidadNegocio/1517001660, 1517001660
+@ClientFields,com.indiana.server.model.bean.PublicidadNegocio,idPublicidadNegocio,codePublicidadNegocio,descripcionPublicidad,fotoPublicidad,version,operacion,beanNegocio,codeNegocio,beanTipoAnuncio,codeTipoAnuncio,idGrupo,codeGrupo,isPersistente
+com.indiana.server.model.bean.Region, true, true, false, false, com.indiana.server.model.bean.Region/1144755415, 1144755415
+@ClientFields,com.indiana.server.model.bean.Region,idRegion,codeRegion,nombre,generador,version,operacion,codePais,nombrePais,beanPais,isPersistente
+com.indiana.server.model.bean.SolicitudAmistad, true, true, false, false, com.indiana.server.model.bean.SolicitudAmistad/1455560234, 1455560234
+@ClientFields,com.indiana.server.model.bean.SolicitudAmistad,idSolicitudAmistad,codeSolicitudAmistad,fecha,version,operacion,beanEstadoSolicAmistad,codeEstadoSolicAmistad,beanTuristaEnvia,codeTuristaEnvia,beanTuristaRecibe,codeTuristaRecibe,isPersistente,estadoTarea
+com.indiana.server.model.bean.SolicitudCuentaNegocio, true, true, false, false, com.indiana.server.model.bean.SolicitudCuentaNegocio/2107649336, 2107649336
+@ClientFields,com.indiana.server.model.bean.SolicitudCuentaNegocio,idSolicitudCuentaNegocio,codeSolicitudCuentaNegocio,correoPersonal,correoCorporativo,puestoEmpresa,dni,telefono,estado,clave,version,operacion,isPersistente
+com.indiana.server.model.bean.TipoAnuncio, true, true, false, false, com.indiana.server.model.bean.TipoAnuncio/3082724092, 3082724092
+@ClientFields,com.indiana.server.model.bean.TipoAnuncio,idTipoAnuncio,codeTipoAnuncio,descripcion,estado,version,operacion
+com.indiana.server.model.bean.TipoMovimiento, true, true, false, false, com.indiana.server.model.bean.TipoMovimiento/910785982, 910785982
+@ClientFields,com.indiana.server.model.bean.TipoMovimiento,idTipoMovimiento,codeTipoMovimiento,descripcion,estado,tipo,version,operacion,isPersistente
+com.indiana.server.model.bean.TuristaInteres, true, true, false, false, com.indiana.server.model.bean.TuristaInteres/1813910558, 1813910558
+@ClientFields,com.indiana.server.model.bean.TuristaInteres,idTuristaInteres,codeTuristaInteres,beanTurista,codeTurista,beanInteres,codeInteres,nombreInteres,valorModa,estadoVisibilidad,version,operacion,isPersistente,enComun,annio,mes,dia,edad,nombreColonia,nacionalidad
+[Lcom.indiana.server.model.bean.TuristaInteres;, true, true, false, false, [Lcom.indiana.server.model.bean.TuristaInteres;/849351262, 849351262
+com.indiana.server.model.bean.UsuarioNegocio, true, true, false, false, com.indiana.server.model.bean.UsuarioNegocio/247355473, 247355473
+@ClientFields,com.indiana.server.model.bean.UsuarioNegocio,idUsuarioNegocio,codeUsuarioNegocio,correoNegocio,nombreNegocio,fotoPerfilNegocio,descripcion,longitud,latitud,radio,beanPais,codePais,nombrePais,beanRegion,codeRegion,nombreRegion,beanLocalidad,codeLocalidad,nombreLocalidad,telefono,fechaCreacion,beanCategoriaNegocio,codeCategoriaNegocio,nombreCategoriaNegocio,totalConquistas,totalOfertas,mediaValoracion,beanCuentaNegocio,beanCampania,codeCampania,isPersistente,operacion,version,calculoDistancia
+com.indiana.server.model.bean.UsuarioTurista, true, true, false, false, com.indiana.server.model.bean.UsuarioTurista/4201726754, 4201726754
+@ClientFields,com.indiana.server.model.bean.UsuarioTurista,idUsuarioTurista,codeUsuarioTurista,correoTurista,nombre,apellido,beanPaisNacimiento,codePaisNacimiento,nombrePaisNacimiento,beanRegionNacimiento,codeRegionNacimiento,nombreRegionNacimiento,beanLocalidadNacimiento,codeLocalidadNacimiento,nombreLocalidadNacimiento,fechaNacimiento,genero,fotoPerfil,fotoPortada,version,operacion,beanInteresUno,nombreInteresUno,modaInteresUno,beanInteresDos,nombreInteresDos,modaInteresDos,beanInteresTres,nombreInteresTres,modaInteresTres,totalDescubiertos,totalConquistas,totalColonias,beanCuentaTurista,isPersistente,estadoActivacion,listTuristaIntereses,codeTipoNotificacion,listaAmigos,listaColonias,listNoticias,tokenFirebase,totalColoniasCreadas,listColoniasCreadas,listDestinosCreados,listConquistasDestinos,listAfiliados,numeroAfiliados,numeroConquistasDistintas,totalNegociosCreados,totalConquistasNegocios
+com.indiana.shared.UnknownException, true, true, false, false, com.indiana.shared.UnknownException/608910084, 608910084
+java.lang.Boolean, true, true, false, false, java.lang.Boolean/476441737, 476441737
+java.lang.Double, true, true, false, false, java.lang.Double/858496421, 858496421
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.Integer, true, true, true, true, java.lang.Integer/3438268394, 3438268394
+java.lang.Long, true, true, false, false, java.lang.Long/4227064769, 4227064769
+java.lang.Number, true, false, true, false, java.lang.Number/300033342, 300033342
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131
+java.sql.Date, true, true, false, false, java.sql.Date/730999118, 730999118
+java.sql.Time, true, true, false, false, java.sql.Time/1816797103, 1816797103
+java.sql.Timestamp, true, true, false, false, java.sql.Timestamp/3040052672, 3040052672
+java.util.ArrayList, true, true, false, false, java.util.ArrayList/4159755760, 4159755760
+java.util.Arrays$ArrayList, true, true, false, false, java.util.Arrays$ArrayList/2507071751, 2507071751
+java.util.Collections$EmptyList, true, true, false, false, java.util.Collections$EmptyList/4157118744, 4157118744
+java.util.Collections$EmptySet, true, true, false, false, java.util.Collections$EmptySet/3523698179, 3523698179
+java.util.Collections$SingletonList, true, true, false, false, java.util.Collections$SingletonList/1586180994, 1586180994
+java.util.Date, true, true, false, false, java.util.Date/3385151746, 3385151746
+java.util.HashSet, true, true, false, false, java.util.HashSet/3273092938, 3273092938
+java.util.LinkedHashSet, true, true, false, false, java.util.LinkedHashSet/95640124, 95640124
+java.util.LinkedList, true, true, false, false, java.util.LinkedList/3953877921, 3953877921
+java.util.Stack, true, true, false, false, java.util.Stack/1346942793, 1346942793
+java.util.TreeMap, true, true, false, false, java.util.TreeMap/1493889780, 1493889780
+java.util.TreeSet, true, true, false, false, java.util.TreeSet/4043497002, 4043497002
+java.util.Vector, true, true, false, false, java.util.Vector/3057315478, 3057315478
